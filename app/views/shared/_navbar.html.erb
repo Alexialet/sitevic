@@ -1,0 +1,18 @@
+<div class="navbar-container">
+  <div class="navbar-wagon">
+
+    <div class="navbar-wagon-left">
+      <!-- Logo -->
+     <a href="/" class="navbar-wagon-brand">
+        <%= image_tag "logo.png", class: "logo" %>
+      </a>
+    </div>
+
+    <!-- Right Navigation -->
+    <div class="navbar-wagon-right hidden-xs hidden-sm">
+      <%= link_to 'Portfolio', portfolio_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to 'About', about_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to 'Contact', contact_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,103 @@
+/* Main navbar */
+.navbar-container {
+  background: transparent;
+  width: 100%;
+  color: black;
+}
+
+.navbar-wagon {
+  background: transparent;
+  transition: all 0.3s ease;
+  height: 60px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 11%;
+  margin-left: 11%;
+  border-bottom: 1px solid black;
+  z-index: 9999;
+}
+
+/* Logo */
+.navbar-wagon-brand img {
+  height: 35px;
+}
+
+/* Right section */
+.navbar-wagon-right, .navbar-wagon-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  &:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  &:first-child {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    margin-right: 20px;
+    &:hover {
+      text-decoration: none;
+      background-color: rgba(52, 52, 52, 0.8)
+    }
+  }
+}
+.navbar-wagon-greet{
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.navbar-container-dashboard {
+  padding: 5px 20px;
+  background: transparent;
+  transition: all 0.3s ease;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-bottom: 1px solid black;
+  z-index: 9999;
+}
+.navbar-avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+}
+
+.empty-avatar {
+  position: relative;
+  height: 50px;
+}
+
+.empty-avatar p{
+  position: absolute;
+  top: 14px;
+  left: 16px;
+}
+
+.navbar-empty-avatar {
+  height: 50px;
+  width: 50px;
+}
+
